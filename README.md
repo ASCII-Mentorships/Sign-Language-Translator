@@ -13,10 +13,10 @@ Practical Project Experience in Computer Vision Using Tensorflow and/or PyTorch 
 ## Plan of Action or Time Line
 The overall outline of this project would start right with the basics i.e. identifying the relevant datasets and papers and end with the final step of deployment of the identified algorithms. 
 
-1) Identify the relevant datasets and papers in this domain
-2) Select a model / Modify an existing model and implement/test it
-3) Experimentation : Perform various experiments on different datasets, with different parameter and take note of the observations and results
-4) Improve the model to increase it's accurancy and/or reduce inference time for deployment onto a device with low compute power
+1) **Literature Review**: Identify the relevant datasets and papers in this domain
+2) **Ideation**: Select a model/Modify an existing model and implement/test it
+3) **Experimentation**: Perform various experiments on different datasets, with different parameters and take note of the observations and results
+4) **Deployment**: Improve the model to increase it's accurancy and/or reduce inference time for deployment onto a device with low compute power
 
 ## Pre-requisites
 1) Basic knowledge of Python and OOPs in python
@@ -28,8 +28,8 @@ The overall outline of this project would start right with the basics i.e. ident
 You should be able to write clean efficient code with proper commenting and documentations of each experiment.
 
 ## Project Mentors
-[Viraj V Aute](https://github.com/viraj-code1)
-[Hardik Shah](https://github.com/hardik01shah)
+- [Viraj V Aute](https://github.com/viraj-code1)
+- [Hardik Shah](https://github.com/hardik01shah)
 
 ## Faculty Advisor
 [Prof. Sravan Danda](https://www.bits-pilani.ac.in/goa/dandas/profile)
