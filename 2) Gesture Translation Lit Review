@@ -1,1 +1,10 @@
+1. Title: Real-time American Sign Language Recognition with Convolutional Neural Networks.
+   Architecture - Transfer Learning using Pretrained GoogLeNet with different initialization and different learning rates. 
+   Accuracy - Validation accuracy of nearly 98% with five letters and 74% with ten.
+   Link - http://cs231n.stanford.edu/reports/2016/pdfs/214_Report.pdf
+2. Title: Research of a Sign Language Translation System Based on Deep Learning
+   Architecture: Faster R-CNN + 3D Conv + LSTM. (Not very feasible for us)
+   Accuracy: 99% on common vocabulary data set.
+   Link: https://ieeexplore.ieee.org/document/8950864
+
 
