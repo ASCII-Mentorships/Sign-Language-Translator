@@ -14,5 +14,17 @@
 4) We would like to have a weekly meeting with you all so we need to decide on the timings
 
 
+10-09-22
 
+1) Mentees are asked to review research papers related to the problem statement and add them to the GitHub repo. Preferably atleast three papers. Important part is to
+   note how the researcher's implemented their model, the accuracy, the feasibility and the dataset used to train the model. 
+
+2) To obtain research papers along with code of the model implemented, papers with code can be used. Link:- https://paperswithcode.com/
+   It is not required to understand the entirety of the paper, but the abstract, figures(depicting methods of implementation) and the result section are important. 
+
+3) The task for this week (till next saturday) is to go through research papers and obtain the code used by the researchers for sign language/gesture translation.
+   Use the code on your own computers and to get some understanding of the accuracy of the model as well as the method used to implement it. See how it works.
+   If some code/application does not work on your machine, Google Colab can be used to test the code. But videos cannot be uploaded to Colab.
+
+4) A whatsapp group will be created where all the mentees will be added/requested to join.
 
