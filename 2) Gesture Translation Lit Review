@@ -6,6 +6,7 @@
    Architecture: Faster R-CNN + 3D Conv + LSTM. (Not very feasible for us)
    Accuracy: 99% on common vocabulary data set.
    Link: https://ieeexplore.ieee.org/document/8950864
+
 3.	Title:- Neural Sign Language Translation (nslt)
    Dataset used:- Continuous SLT dataset, RWTHPHOENIX-Weather 2014T 1 (A set of photos and videos that provide translations of german sign language weather forecasts, around 30 GB in size). Link- 
                   https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/
