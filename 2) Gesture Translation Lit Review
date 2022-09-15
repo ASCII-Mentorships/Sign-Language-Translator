@@ -6,5 +6,20 @@
    Architecture: Faster R-CNN + 3D Conv + LSTM. (Not very feasible for us)
    Accuracy: 99% on common vocabulary data set.
    Link: https://ieeexplore.ieee.org/document/8950864
-
-
+3.	Title:- Neural Sign Language Translation (nslt)
+   Dataset used:- Continuous SLT dataset, RWTHPHOENIX-Weather 2014T 1 (A set of photos and videos that provide translations of german sign language weather forecasts, around 30 GB in size). Link- 
+                  https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/
+   Accuracy:- Accuracy has been mentioned in the terms of BLEU-4. The upper bound for translation performance is 19.26 BLEU-4
+   Code:- Code is available in the GitHub repo:- https://github.com/neccam/nslt
+   Implementation:- The experiments were conducted by grouping them in three categories.
+                    1. Gloss2Text (G2T), in which we simulate having a perfect SLR system as an intermediate tokenization. 
+                    2. Sign2Text (S2T) which covers the end-to-end pipeline translating directly from frame-level sign language video into spoken language. 
+                    3. Sign2Gloss2Text (S2G2T) which uses a SLR system as tokenization layer to add intermediate supervision.
+   Link:-   https://openaccess.thecvf.com/content_cvpr_2018/papers/Camgoz_Neural_Sign_Language_CVPR_2018_paper.pdf
+4. Title:- Word-level Deep Sign Language Recognition from Video: A New Large-scale Dataset and Methods Comparison
+   Dataset used:- Word-Level American Sign Language (WLASL) (Collection videos of more than 2000 words by different signers) https://dxli94.github.io/WLASL/
+                  Consists of only RGB videos. Around 34,404 video samples of 3,126 glosses for further annotations.
+   Implementation:- The model has been made by using temporal graph convolutional network (TGCN). The models, VGG-GRU, Pose-GRU, Pose-TGCN and
+                    I3D are implemented in PyTorch. The ratio of training, validation and testing set was 4:1:1.
+   Accuracy:- 62.63% at top-10 accuracy on 2,000words/glosses
+   Link:- with code- https://github.com/dxli94/WLASL
