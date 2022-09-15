@@ -16,5 +16,10 @@
                     2. Sign2Text (S2T) which covers the end-to-end pipeline translating directly from frame-level sign language video into spoken language. 
                     3. Sign2Gloss2Text (S2G2T) which uses a SLR system as tokenization layer to add intermediate supervision.
    Link:-   https://openaccess.thecvf.com/content_cvpr_2018/papers/Camgoz_Neural_Sign_Language_CVPR_2018_paper.pdf
-
-
+4. Title:- Word-level Deep Sign Language Recognition from Video: A New Large-scale Dataset and Methods Comparison
+   Dataset used:- Word-Level American Sign Language (WLASL) (Collection videos of more than 2000 words by different signers) https://dxli94.github.io/WLASL/
+                  Consists of only RGB videos. Around 34,404 video samples of 3,126 glosses for further annotations.
+   Implementation:- The model has been made by using temporal graph convolutional network (TGCN). The models, VGG-GRU, Pose-GRU, Pose-TGCN and
+                    I3D are implemented in PyTorch. The ratio of training, validation and testing set was 4:1:1.
+   Accuracy:- 62.63% at top-10 accuracy on 2,000words/glosses
+   Link:- with code- https://github.com/dxli94/WLASL
